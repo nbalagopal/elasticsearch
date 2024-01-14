@@ -15,7 +15,7 @@ kind: Pod
 spec:
   containers:
   - name: shell
-    image: ubuntu
+    image: gradle:8.5.0-jdk8
     command:
     - sleep
     args:
